@@ -33,7 +33,7 @@ inquirer
 
         {
             type: 'input',
-            message: 'How to test the program instruction',
+            message: 'How to test the program instruction (n/a if not applicable)',
             name: 'test',
         },
         {
