@@ -105,7 +105,7 @@ You can see more of my projects on my github page: https://github.com/${data.use
 or contact me via email at: ${data.email}
 `;
 
-    fs.writeFile('README.md', JSON.stringify(myReadme), (err) =>
+    fs.writeFile('README.md', myReadme, (err) =>
         err ? console.error(err) : console.log('created file'));
 })
 
